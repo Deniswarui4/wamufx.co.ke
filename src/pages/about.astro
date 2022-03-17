@@ -1,0 +1,28 @@
+---
+	import BaseLayout from "../layouts/BaseLayout.astro";
+	import Intro from "../components/intro.astro";
+
+	let title = "WafuFX - About";
+	let description = "WafuFX is an information station for forex, commodities, indices and cryptocurrency traders.";
+	let heading = "All about Wamu<span class='text-yellow-300'>FX</span>";
+	let message = "<strong>Wamu<span class='text-yellow-300'>FX</span></strong> is an information station for forex, commodities, indices and cryptocurrency traders. Providing you with the best strategies and trading opportunities whilst equipping you with the tools you need to be successful. Get free trading signals, daily market insights, tips, the best educational resources, social trading and much more...";
+---
+
+<BaseLayout title={title} description={description}>
+	<Intro heading={heading} message={message} />
+
+	<section class="max-w-7xl mx-auto px-4 md:px-6 lg:px-0 py-8">	
+		<h1>Welcome to WamuFX, your number one source for all things forex. We're dedicated to giving you the very best of signals, with a focus on currencies, indicies and futures.</h1>
+
+
+		Founded in 2016 by Warui Muturi, WamuFX has come a long way from its beginnings in Nairobi, Kenya. When Warui Muturi first started out, his passion for forex trading drove them to quit his day job, do tons of research so that WamuFX can offer you competitive clear signals and trade ideas. We now serve customers all over the world, and are thrilled that we're able to turn my passion into our own website.
+
+
+		we hope you enjoy our signals as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+
+
+		Sincerely,
+
+		Warui Muturi.
+	</section>
+</BaseLayout>

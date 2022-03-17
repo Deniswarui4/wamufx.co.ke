@@ -9,7 +9,9 @@
 <html lang="en" class="h-full">
 <head>
     <BaseHead title={title} description={description}/>
-    <link rel="stylesheet" href={Astro.resolve('../styles/global.css')}>
+    <style global>
+        @import '../styles/global.css';
+    </style>
 </head>
 <body class="bg-black text-white static min-h-screen flex flex-col">
     <Header />
